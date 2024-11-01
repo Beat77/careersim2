@@ -1,13 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<style>
+
+
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Contact</title>
-  <Nav></Nav>
+  .flex-container {
+  display: flex;
+  background-color blue;
+  }
+  .flex-container > div {
+  background-color: #32e875ff;
+  margin: 5px;
+  padding: 2px;
+  font-size: 12px;
+}
+input[type=text], input[type=email] {
+	width: 100%
+	padding: 10px 18px;
+	margin: 6px 0;
+	box-sizing: border-box;
+	border: 2px solid blue;
+}
+</style>
 </head>
 <body>
-	|<form action="/action_page.php">
+
+	<Nav>
+    <div class="flex-container">
+   <H1>Jamey Jones</H1>
+   <div><a href="file:///C:/Users/PC4JP/Documents/Coursework/careersim2/index.html">Home</a></div>
+    <div><a href="file:///C:/Users/PC4JP/Documents/Coursework/careersim2/about.html">About</a></div>
+  <div><a href="file:///C:/Users/PC4JP/Documents/Coursework/careersim2/portfolio.html">Portfolio</a></div>
+	<div><a href= "file:///C:/Users/PC4JP/Documents/Coursework/careersim2/contact.html">Contact Page</a></div>     
+</div>
+    </Nav>
+
+	|<form>
 		<label for="fname">First name:</label><br>
 		<input type="text" id="fname" name="fname"><br>
 		<label for="lname">Last name:</label><br>
